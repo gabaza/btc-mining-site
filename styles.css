@@ -41,3 +41,29 @@ body {
 .top-nav > ul > li:hover {
     background-color: #3D60A7;
 }
+main {
+    display: grid;
+    grid-template-columns: 30% 65%;
+}
+main > ul {
+    list-style-type: none;
+    line-height: 50px;
+    padding-top: 40px;
+    margin-left: 50px;
+}
+main > ul > li > a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+main > ul > li > a:hover {
+    color: #3D60A7;
+}
+main > ul > li > a > span {
+    color: #3D60A7;
+    font-weight: bolder;
+}
+main > h1 {
+    color: white;
+    font-size: 80px;
+}
