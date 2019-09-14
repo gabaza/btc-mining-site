@@ -116,3 +116,19 @@ p > span {
     background-color: #F15A24;
     border-radius: 10px;
 }
+.login-container > form {
+    font-size: 24px;
+}
+.login-container > form > input {
+    border: 1px solid white;
+    height: 22px;
+    color: #F15A24;
+}
+.login-container > form > button {
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: #F15A24;
+    color: white;
+    border: 1px solid #F15A24;
+}
+
