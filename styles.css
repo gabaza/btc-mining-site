@@ -146,6 +146,9 @@ p > span {
     main {
         grid-template-columns: 1fr;
     }
+    .quote {
+        display: none;
+    }
     main > h1 {
         padding-left: 15px;
     }
