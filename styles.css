@@ -132,3 +132,31 @@ p > span {
     border: 1px solid #F15A24;
 }
 
+
+
+/* mobile */
+@media screen and (max-width: 850px) {
+    body {
+        background: url("mobile-btc-bg.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: #2E3192;
+        }
+        
+    main {
+        grid-template-columns: 1fr;
+    }
+    .article-container {
+       position: relative;
+    }
+    .article-container > section {
+        padding-top: 60px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    .article-container > section > article {
+        border-top: 3px solid white;
+        background-color: #F15A24
+    }
+    }
+
