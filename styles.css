@@ -98,3 +98,21 @@ p > span {
 .article-container > section > article:hover {
     background-color: #F15A24;
 }
+/* login page  */
+.login-container {
+    width: 40%;
+    /* border: 1.8px solid #3D60A7; */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 80px auto 0px auto;
+    background-color:  #3D60A7;
+    padding: 12px;
+    color: white;
+    box-shadow: -7px 9px 7px 5px #000000;
+}
+.login-container > h1 {
+    text-align: center;
+    background-color: #F15A24;
+    border-radius: 10px;
+}
