@@ -1,0 +1,43 @@
+body {
+    background: url(geo-lines-bg.png);
+    background-size: cover;
+    background-color: #2E3192;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.top-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.top-nav a {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: white;
+}
+.top-nav a > img {
+    height: 80px;
+    width: auto;
+    margin: 20px 20px 20px 50px;
+}
+.top-nav a > h3 {
+    margin: 40px 0px 0px 0px;
+    font-size: 30px;
+}
+.top-nav > ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.top-nav > ul > li {
+    border: 1px solid #3D60A7;
+    border-radius: 10%;
+    padding: 10px 20px;
+    margin: 20px 10px;
+}
+.top-nav > ul > li:hover {
+    background-color: #3D60A7;
+}
