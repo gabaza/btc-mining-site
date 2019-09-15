@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles.css" charset="utf-8">
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/888bae4f96.js"></script>
+    <script type = "text/javascript" src = "main.js" ></script>
     <link rel="shortcut icon" type="image/png" href="btc-logo.png"/>
     <title>Bitcoin Mining</title>
 </head>
@@ -18,16 +19,27 @@
         </div>
         <ul>
             <li><a href="#">Login</a></li>
-            <li><a href="#">Register</a></li>
+            <li><a href="#" onclick="openRegistration()">Register</a></li>
         </ul>
     </nav>
     <div class="login-container">
         <h1>Login</h1>
             <form action="#">
-                Email: <input type="text" name="email" placeholder="JohnDoe@email.com">&nbsp;&nbsp;
+                Email: <input type="text" name="email" placeholder="JohnDoe@email.com">
                 Password: <input type="password" name="password">&nbsp;&nbsp;
                 <button>Enter</button>
             </form>
     </div>
+    <div id="register-form">
+            <form action="#">
+                <h1>Sign up</h1>
+                First Name: <input type="text" name="First Name" placeholder="Jane">
+                Last Name: <input type="text" name="Last Name" placeholder="Smith">
+                Email: <input type="text" name="email" placeholder="JaneSmith@email.com">
+                Password: <input type="password" name="password">
+                Password Confirmation: <input type="password" name="password">&nbsp;&nbsp;
+                <button>Enter</button>
+            </form>
+        </div>
 </body>
 </html>

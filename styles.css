@@ -98,6 +98,47 @@ p > span {
 .article-container > section > article:hover {
     background-color: #F15A24;
 }
+#register-form {
+    border-radius: 10px;
+    background-color:  #3D60A7;
+    color: white;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 20%;
+    right: 2%;
+    overflow-x: hidden;
+    padding-top: 20px;
+    transition: 0.5s;
+    border-top-left-radius: 10%;
+    border-radius: 5px;
+}
+#register-form > form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 22px;
+}
+#register-form > form > h1 {
+    background-color: #F15A24;
+    border-radius: 10px;
+}
+#register-form > form input {
+    width: 25%;
+    margin: 10px auto;
+    border: 1px solid white;
+    height: 22px;
+    color: #F15A24;
+}
+#register-form > form > button {
+    border-radius: 10px;
+    font-size: 22px;
+    background-color: #F15A24;
+    color: white;
+    border: 1px solid #F15A24;
+    margin: 10px auto;
+}
+
 /* login page  */
 .login-container {
     width: 40%;
@@ -164,5 +205,15 @@ p > span {
         border-top: 3px solid white;
         background-color: #F15A24
     }
+    .login-container {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .login-container > form {
+        display: flex;
+        flex-direction: column;
+    }
+
     }
 
