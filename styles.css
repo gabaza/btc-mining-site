@@ -81,19 +81,21 @@ p > span {
     position: absolute;
     bottom: 0px;
     margin: 40px auto 0px auto;
-    
+    height: 0px;
     width: 100%;
+    transition: 0.5s;
     text-align: center;
 }
 .article-container > section > article {
     width: 150px;
     border-left: 3px solid white;
     color: white;
+    text-align: center;
 }
 .article-container > section {
-    margin: 0px auto 0px auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    
 }
 .article-container > section > article:hover {
     background-color: #F15A24;

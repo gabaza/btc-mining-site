@@ -8,3 +8,13 @@ function openRegistration() {
       x.style.boxShadow ="none";
     }
 }
+function openProducts() {
+    var x = document.getElementById("article-container");
+    if (x.style.height === "0px") {
+    
+      x.style.height = "110px";
+    } else {
+      x.style.height = "0px";
+    
+    }
+}
