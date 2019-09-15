@@ -118,6 +118,7 @@ p > span {
     flex-direction: column;
     text-align: center;
     font-size: 22px;
+    padding: 12px;
 }
 #register-form > form > h1 {
     background-color: #F15A24;
